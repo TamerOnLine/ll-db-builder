@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Python Script",
+      "type": "shell",
+      "command": "${config:python.defaultInterpreterPath}",
+      "args": ["${file}"],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": ["$python"]
+    }
+  ]
+}
