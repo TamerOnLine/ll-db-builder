@@ -49,3 +49,24 @@ def ensure_database_exists():
     except Exception as e:
         logger.error("Failed to verify or create the database:")
         logger.exception(e)
+
+from main.models import (
+    resume_section,
+    resume_paragraph,
+    resume_field,
+    resume_setting,
+    Section,
+    LanguageOption,
+    sidebar_link,
+    NavigationLink,
+)
+
+from main.extensions import Base
+
+def create_all_tables(engine):
+    """
+    Create all tables in the database.
+    """
+    Base.metadata.create_all(engine)
+
+

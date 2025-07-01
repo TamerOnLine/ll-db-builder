@@ -2,8 +2,6 @@ flask-sqlalchemy
 flask-babel==4.0.0
 python-dotenv
 psycopg2-binary
-pytest
-pytest-cov
-codecov
+
 
 

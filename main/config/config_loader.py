@@ -31,3 +31,5 @@ def load_env_config():
         "DB_PORT": int(os.getenv("DB_PORT", 5432)),
         "FLASK_DEBUG": os.getenv("FLASK_DEBUG", "True"),
     }
+
+
