@@ -7,7 +7,6 @@ It loads connection settings from `.env`, ensures the database exists, and creat
 
 ## 🚀 Features
 
-- ✅ Automatically creates the database if not present
 - ✅ Initializes all tables using SQLAlchemy
 - ✅ Secure loading of settings via `.env`
 - ✅ Clean and professional project structure
